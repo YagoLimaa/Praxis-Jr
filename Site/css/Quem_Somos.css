@@ -1,0 +1,136 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+#nav {
+    background-color: rgba(6, 76, 255, 0.8);
+    font-family: sans-serif;
+    position: absolute;
+    margin: 0; 
+    padding: 0; 
+    float: left; 
+    left: 0px;
+    top: -50px;
+    margin-top: 50px;
+    height: 705px;
+    width: 225px;
+}
+.Logo{
+    display: block;
+    height: 63px;
+    width: 63px;
+    top: 13px;
+    left: 80px;
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+#nav li { 
+
+    font-family: sans-serif;
+    list-style: none; 
+    color: black;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 0px;
+    width: 225px;
+    text-align: center;
+ }
+#nav li a { 
+    font-family: sans-serif;
+    text-decoration: none;
+    display: flex;
+    padding: 30px 15px;
+    color: black;
+    height: 3px;  
+ }
+#nav li a:hover { 
+    color: #ffff; 
+    background: rgba(255, 0, 0, 0.75);
+ }
+#nav li ul { 
+    display: none;
+    background-color: rgba(6, 76, 255, 0.8)
+}
+#nav li:hover ul { 
+    display: block; 
+    
+}
+#nav li:hover ul li { 
+    color: black
+}
+#nav li:hover ul li a { 
+    color: black
+}
+#nav li:hover ul li a:hover {
+     background: rgba(255, 0, 0, 0.75);
+     color: white;
+}
+
+/*------------------------*/
+
+h1{
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-size: 25px;
+}
+#img1{
+    position: relative;
+    top: 100px;
+    left: 300px;
+    height: 100px;
+    width: 100px;
+    border-radius: 70px;
+}
+#Text1{
+    font-family: sans-serif;
+    position: absolute;
+    padding: 20px 15px;
+    left: 425px;
+    text-align: left;
+    font-size: 20px;
+}
+#img2{
+    position: relative;
+    top: 250px;
+    left: 1000px;
+    height: 100px;
+    width: 100px;
+    border-radius: 70px;
+}
+#Text2{
+    font-family: sans-serif;
+    position: absolute;
+    padding: 20px 15px;
+    top: 290px;
+    left: 250px;
+    width: 800px;
+    text-align: right;
+    font-size: 20px;
+}
+#img3{
+    position: relative;
+    top: 410px;
+    left: 90px;
+    height: 100px;
+    width: 100px;
+    border-radius: 70px;
+}
+#Text3{
+    font-family: sans-serif;
+    position: absolute;
+    padding: 20px 15px;
+    top: 435px;
+    left: 425px;
+    text-align: left;
+    font-size: 20px;
+}

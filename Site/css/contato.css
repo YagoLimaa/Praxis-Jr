@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+#nav {
+    background-color: rgba(6, 76, 255, 0.8);
+    font-family: sans-serif;
+    position: absolute;
+    margin: 0; 
+    padding: 0; 
+    float: left; 
+    left: 0px;
+    top: -50px;
+    margin-top: 50px;
+    height: 705px;
+    width: 225px;
+}
+.Logo{
+    display: block;
+    height: 63px;
+    width: 63px;
+    top: 13px;
+    left: 80px;
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+#nav li { 
+
+    font-family: sans-serif;
+    list-style: none; 
+    color: black;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 0px;
+    width: 225px;
+    text-align: center;
+ }
+#nav li a { 
+    font-family: sans-serif;
+    text-decoration: none;
+    display: flex;
+    padding: 30px 15px;
+    color: black;
+    height: 3px;  
+ }
+#nav li a:hover { 
+    color: #ffff; 
+    background: rgba(255, 0, 0, 0.75);
+ }
+#nav li ul { 
+    display: none;
+    background-color: rgba(6, 76, 255, 0.8)
+}
+#nav li:hover ul { 
+    display: block; 
+    
+}
+#nav li:hover ul li { 
+    color: black
+}
+#nav li:hover ul li a { 
+    color: black
+}
+#nav li:hover ul li a:hover {
+     background: rgba(255, 0, 0, 0.75);
+     color: white;
+}
+
+/*-------Fim da Nav-bar------*/
+
+.footer{
+    left: 225px;
+    top: 555px;
+    height: 70px;
+    width: 1140px;                  
+    position: absolute;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 0;
+}
+h1{
+    top: 18px;
+    left: 400px;
+    position: absolute;
+    font-size: 25px;
+    z-index: 1;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.formu{
+    z-index: 1;
+    position: absolute;
+    left: 350px;
+    top: 280px;
+    margin: 50px 50px;
+}
+
+h5{
+    font-family: sans-serif;
+    position: absolute;
+    z-index: 1;
+    left: 400px;
+    top: 580px;
+}
+.box {
+    top: 562px;
+    left: 780px;
+    position: absolute;
+    float: left;
+    height: 60px;
+    z-index: 1;
+   }
+   
+.linha-vertical {
+    position: absolute;
+    border-left: 2px solid;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+#insta{
+    z-index: 1;
+    position: relative;
+    left: 1050px;
+    top: 570px;
+    width: 30px;
+    height: 30px;
+}
+
+#face{
+    position: relative;
+    left: 800px;
+    top: 570px;
+    width: 30px;
+    height: 30px;
+}
+#whats{
+    position: relative;
+    left: 1200px;
+    top: 570px;
+    width: 30px;
+    height: 30px;
+}
+#local{
+    position: relative;
+    top: 300px;
+    left: 700px;
+    width: 30px;
+    height: 30px;
+
+}
+h2{
+    font-family: sans-serif;
+    font-size: 13px;
+
+}
+h3{
+    position: relative;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 5px;
+    left: -97px;
+    top: 21px;
+
+}
+h4{
+    position: relative;
+    font-family: sans-serif;
+    font-size: 12px;
+    top: 273px;
+    left: 850px;
+}
+#telefone{
+    position: relative;
+    top: 300px;
+    left: 804px;
+    width: 30px;
+    height: 30px;
+}
+#email{
+    position: relative;
+    top: 300px;
+    left: 804px;
+    width: 30px;
+    height: 30px;
+}
+.Mapa{
+    position: absolute;
+    top: 25px;
+    left: 800px;
+}
+/*-----------------------------*/
+.contato{
+    position: absolute;
+    top: 0px;
+    left: 390px;
+    padding: 55px 0px 10px 0px;
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px
+    
+ }
+ .form{
+     position: absolute;
+     width: 20px;
+     height: 20px;
+ }
+ input{
+    padding-left: 2px;
+    border: 1px solid #000000;
+    padding: 0px;
+    border: black;
+    margin-bottom: 5px;
+    height: 20px
+}
+input[type="text"]{
+    padding-left: 15px;
+    border-top-color: black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border: black;
+    width: 24vw;
+    border-radius: 10px;
+}
+
+input[type="email"]{
+    padding-left: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2px;
+    width: 24vw;
+    border-radius: 10px;
+}
+input[type="tel"]{
+    padding-left: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2px;
+    width: 24vw;
+    border-radius: 10px;
+}
+ textarea{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 24vw;
+    height: 20vh;
+    resize: none;
+    border-radius: 10px;
+}
+.enviar{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    border-radius: 10px;
+    left: 100px;
+    width: 120px;
+    height: 30px;
+}
+input:hover, textarea:hover {
+    background-color: rgba(235, 235, 235, 1);
+}
+
+
+ 
